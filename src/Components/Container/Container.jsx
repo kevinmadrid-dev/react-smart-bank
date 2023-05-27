@@ -1,7 +1,6 @@
 import React from "react"
-
 import Title from "../TitleH/TitleH.jsx"
-import Account from "../Account"
+import Account from "../Account/Account.jsx"
 
 const Container = () => {
   return (
