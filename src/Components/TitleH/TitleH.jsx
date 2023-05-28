@@ -1,4 +1,3 @@
-import React from "react"
 import styled from "styled-components"
 
 const TitleH = styled.h1`
@@ -7,7 +6,7 @@ const TitleH = styled.h1`
 `
 
 // const TitleH = ({ children }) => {
-//   return <h1 className="title">{children}</h1>
+// return <h1 className="title">{children}</h1>
 // }
 
 export default TitleH

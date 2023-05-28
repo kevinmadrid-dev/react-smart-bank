@@ -1,15 +1,35 @@
 import React from "react"
-import Title from "../TitleH/TitleH.jsx"
+import styled from "styled-components"
+import TitleH from "../TitleH/TitleH.jsx"
 import Account from "../Account/Account.jsx"
+import { fondoClaro } from "../UI/Variables.js"
+
+const StyledContainer = styled.div`
+  background-color: ${fondoClaro};
+  min-height: 90vh;
+  padding: 0px 15vw;
+
+  //Los media query se añaden a su clase de styled components
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+`
+
+const StyledSection = styled.section`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`
 
 const Container = () => {
   return (
-    <div className="container">
-      <Title>Smart Bank</Title>
-      <section className="content">
+    <StyledContainer>
+      <TitleH>Smart Bank</TitleH>
+
+      <StyledSection>
         <Account />
-      </section>
-    </div>
+      </StyledSection>
+    </StyledContainer>
   )
 }
 
