@@ -3,6 +3,7 @@ import styled from "styled-components"
 import TitleH from "../TitleH/TitleH.jsx"
 import Account from "../Account/Account.jsx"
 import { fondoClaro } from "../UI/Variables.js"
+import List from "../List/List.jsx"
 
 const StyledContainer = styled.div`
   background-color: ${fondoClaro};
@@ -28,6 +29,8 @@ const Container = () => {
 
       <StyledSection>
         <Account />
+
+        <List />
       </StyledSection>
     </StyledContainer>
   )
