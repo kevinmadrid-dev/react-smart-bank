@@ -2,11 +2,10 @@ import React from "react"
 import styled from "styled-components"
 import TitleH from "../TitleH/TitleH.jsx"
 import Account from "../Account/Account.jsx"
-import { fondoClaro } from "../UI/Variables.js"
 import List from "../List/List.jsx"
 
 const StyledContainer = styled.div`
-  background-color: ${fondoClaro};
+  background-color: ${({ theme }) => theme.body};
   min-height: 90vh;
   padding: 0px 15vw;
 

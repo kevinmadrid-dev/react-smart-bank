@@ -16,6 +16,8 @@ const CardStyled = styled.div`
 const InfoCardStyled = styled.div`
   display: flex;
   flex-direction: column;
+  text-align: center;
+
   .type {
     font-weight: bold;
   }
