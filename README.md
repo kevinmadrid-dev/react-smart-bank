@@ -60,8 +60,5 @@ serve -s build
 ``` 
 ↑ Ejecuta el servidor.
 
-## ▶️ Deploy de app
-* Vercel => [Banco App](https://github.com/K3yJey/react-styled_components.git)
-
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
