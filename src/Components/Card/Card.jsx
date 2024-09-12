@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+
 import ImageFilter from "../ImageFilter.jsx"
 
 const CardStyled = styled.div`
@@ -24,7 +25,7 @@ const InfoCardStyled = styled.div`
 `
 
 function Card({ cargo }) {
-  const { id, type, value, from, date } = cargo
+  const { type, value, from, date } = cargo
 
   return (
     <CardStyled>

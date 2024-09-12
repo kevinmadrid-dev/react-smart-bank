@@ -5,7 +5,8 @@ import transporte from "../assets/images/transporte.svg"
 import utilidades from "../assets/images/utilidades.svg"
 import dinero from "../assets/images/dinero.svg"
 import otros from "../assets/images/otros.svg"
-import { Icono, IconoTheme } from "./UI/UI.jsx"
+
+import { IconoTheme } from "./UI/UI.jsx"
 
 const Images = {
   Restaurante: <IconoTheme src={alimentacion} alt="Restaurante" />,

@@ -1,9 +1,10 @@
 import React, { useState } from "react"
 import styled from "styled-components"
+import { Icono, IconoTheme, Btn, Box, Saldo, Detalle } from "../UI/UI"
+
 import privado from "../../assets/images/privado.svg"
 import ojo from "../../assets/images/ojo.svg"
 import dinero from "../../assets/images/dinero.svg"
-import { Icono, IconoTheme, Btn, Box, Saldo, Detalle } from "../UI/UI"
 
 //Herencia, heredamos los estilos de "Icono" y le agregamos estilos adicionales
 const IconoSaldo = styled.span`

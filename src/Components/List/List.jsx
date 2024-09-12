@@ -1,4 +1,5 @@
 import React from "react"
+
 import { Box, Btn } from "../UI/UI"
 import { lista } from "../../info"
 import Card from "../Card/Card"
